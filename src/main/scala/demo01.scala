@@ -1,6 +1,37 @@
 import io.StdIn._
 object demo01 {
   def main(args: Array[String]): Unit = {
+    print("请输入成绩:")
+    val cj=readDouble()
+    if(cj<=8){
+      println("你已进入决赛")
+      print("请输入性别:")
+      var sex=readChar()
+      if (sex.toString=="男"){
+        println("进入男子组")
+      }else{
+        println("进入女子组")
+      }
+    }
+    else{
+      println("Pass")
+    }
+    /*
+    val a=readInt()
+    val res={
+      if (a>20){
+        "111"
+        7
+        "222"
+      }
+      else {
+        "ok"
+      }
+    }
+    println("res="+res)
+    */
+    //多分支代码
+    /*
     val grade=readFloat()
     if (grade==100){
       println("应该奖励BMW")
@@ -14,6 +45,8 @@ object demo01 {
     else{
       println("什么都没有")
     }
+    */
+    //年份判断
     /*
     val year=readInt()
     if((year %4 ==0&&year %100 !=0)||(year %400==0)){
@@ -23,7 +56,7 @@ object demo01 {
       println(year+"年不是闰年")
     }
     */
-
+    //整除代码
     /*
     val a=readLine("请输入第一个数:")
     val b=readLine("请输入第二个数:")
