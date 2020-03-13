@@ -1,6 +1,7 @@
 import io.StdIn._
 object demo01 {
   def main(args: Array[String]): Unit = {
+
     print("请输入成绩:")
     val cj=readDouble()
     if(cj<=8){
