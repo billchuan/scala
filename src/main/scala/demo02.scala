@@ -89,6 +89,45 @@ object demo02 {
       i += 1
     }while (i < 10)
     */
+    /*while循环求1-100的和
+    var i = 0 //循环变量初始化
+    var sum = 0
+    do {
+      sum = sum + i //循环体
+      i = i + 1 //循环变量的迭代
+    } while (i <= 100) //循环条件
+    println("1-100的和是:" + sum)
+  */
+    /*循环嵌套打印学生成绩
+    import io.StdIn._
+    val classnum = 3
+    val stunum = 5
+    var score = 0.0
+    var classcore = 0.0
+    var totalscore = 0.0
+    for (i <- 1 to classnum) {
+      classcore = 0.0
+      for (j <- 1 to stunum) {
+        print("请输入第" + i + "个班级的第" + j + "个学生的成绩:")
+        score = readDouble()
+        classcore += score
+      }
+      printf("第%d个班级的平均分为:%.2f", i, classcore / stunum)
+      println()
+      totalscore = totalscore + classcore
+    }
+    printf("年级总平均分为:%.2f", totalscore / (classnum * stunum))
+    */
+    /*打印九九乘法表
+    val num = 9
+    for (i <- 1 to num) { //确定行数
+      for (j <- 1 to i) { //确定列
+        printf("%d * %d  = %d\t", j, i, i * j)
+      }
+      println()//换行
+    }
+   */
 
   }
 }
+
