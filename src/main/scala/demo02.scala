@@ -127,7 +127,24 @@ object demo02 {
       println()//换行
     }
    */
-
+  //break、continue练习
+    /*
+   import util.control.Breaks._
+    var n=1
+    breakable(
+    while(n<=20){
+      n=n+1
+      if(n==15)
+        break()
+    })
+    println("123")
+    */
+    /*
+    for(i<-1 to 10 if i !=2){
+      println(i)
+    }
+    println("----------------------")
+*/
   }
 }
 
