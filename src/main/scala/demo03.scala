@@ -35,7 +35,7 @@ object demo03 {
     var sum = 0
     for (item <- a) {
       sum = sum + item
-      print(item+" ")
+      print(item + " ")
     }
     print("sum=" + sum)
   }
@@ -49,7 +49,7 @@ object demo03 {
     println(display("123456789"))
     val res2 = add3(z = 3)
     println("res2=" + res2)
-    add4(2,3,4,5,6,7,8,9,10)
+    add4(2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 
   }
