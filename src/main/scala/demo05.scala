@@ -4,6 +4,7 @@ object demo05 {
   def main(args: Array[String]): Unit = {
     lazy val res = sum(10, 20)
     println("---------------------")
+    println("res="+res)
   }
 
   def sum(a: Int, b: Int): Int = {
