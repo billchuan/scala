@@ -32,7 +32,7 @@ object demo04 {
     //    println(f4(5, 6))
     //    println(f5(6, 7))
     println(dg(3))
-    println(test(4))
+    //println(test(4))
   }
 
 
