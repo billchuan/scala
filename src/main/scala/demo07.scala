@@ -11,12 +11,12 @@ object demo07 {
     //    val p3 = new person("tom", 50)
     //    println("name=" + p3.name + "\nage=" + p3.age)
     val wo1 = new work1("tom") {
-      println("name=" + wo1.name)
+      //println("name=" + wo1.name)
       //work1.inname 不能访问
       println("---------------------")
     }
     val wo2 = new work2("tom") {
-      println("name=" + wo2.name)
+      //println("name=" + wo2.name)
       //work2.inname 不能赋值
       println("---------------------")
     }
