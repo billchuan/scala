@@ -1,0 +1,5 @@
+package xm
+
+object cat {
+
+}

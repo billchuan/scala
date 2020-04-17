@@ -1,0 +1,5 @@
+package xq
+
+object cat {
+
+}
