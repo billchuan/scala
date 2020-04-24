@@ -1,3 +1,5 @@
+package project1
+
 //3月20日一、二节课程代码
 object demo02 {
   def main(args: Array[String]): Unit = {
@@ -147,4 +149,3 @@ object demo02 {
 */
   }
 }
-

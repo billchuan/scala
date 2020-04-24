@@ -1,3 +1,5 @@
+package project1
+
 //4月10日一、二节课学习
 //类的定义练习
 object demo06 {

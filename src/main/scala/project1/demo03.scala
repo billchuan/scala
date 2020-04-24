@@ -1,3 +1,5 @@
+package project1
+
 //3月27日一、二节课上课学习
 object demo03 {
   //方法的定义,实现加法运算

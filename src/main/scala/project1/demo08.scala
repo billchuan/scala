@@ -1,3 +1,5 @@
+package project1
+
 //4月17日上课学习
 import scala.beans.BeanProperty
 

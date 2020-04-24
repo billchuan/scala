@@ -1,3 +1,5 @@
+package project1
+
 //3月27日三、四节课上课学习
 object demo04 {
   //return指定返回值

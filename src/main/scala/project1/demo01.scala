@@ -1,4 +1,7 @@
-import scala.io.StdIn._
+package project1
+
+import scala.io.StdIn.{readChar, readDouble}
+
 object demo01 {
   def main(args: Array[String]): Unit = {
 
