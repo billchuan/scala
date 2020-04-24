@@ -6,14 +6,21 @@ object demo10 {
   def main(args: Array[String]): Unit = {
     val emp = new emp
     emp.printname()
+    emp.name="tom"
+    emp.sayhi()
+
   }
 }
 
 class person {
-  var name: String = _
+  var name: String = "jack"
 
   def printname() = {
-    print("person printname()" + name)
+    println("person printname()" + name)
+  }
+
+  def sayhi() = {
+    println("say hello")
   }
 }
 
@@ -21,6 +28,10 @@ class person {
 class emp extends person {
   override def printname(): Unit = {
     println("emp printname()" + name)
+    println("----------------------")
+    super.printname()
+    println("----------------------")
+    sayhi()
   }
 }
 
