@@ -1,4 +1,5 @@
 //4月17日上课学习
+package project1
 object demo07 {
   def main(args: Array[String]): Unit = {
     //    val p1 = new person("Jack", 30)
